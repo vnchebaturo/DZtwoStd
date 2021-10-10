@@ -600,7 +600,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.0" green="0.56631410120000003" blue="0.31671360139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.3009830117225647" green="0.49063211679458618" blue="0.34287482500076294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outletCollection property="cardButton" destination="ISh-Yv-uxl" collectionClass="NSMutableArray" id="X0E-Kb-z3i"/>
