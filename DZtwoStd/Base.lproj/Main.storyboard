@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +11,701 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DZtwoStd" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ISh-Yv-uxl" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="20" y="44" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="h6J-05-H0p" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="20" y="165" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hle-Zc-spD" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="20" y="286" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="a2A-jY-Soj" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="20" y="407" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bx9-iT-ojT" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="20" y="528" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bNd-3U-h38" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="20" y="649" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jgG-Fn-nm8" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="121" y="44" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="kpF-Fb-sYb" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="121" y="165" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="omO-rq-VmA" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="121" y="286" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="xFM-e0-jSu" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="121" y="407" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DZj-eL-Vqx" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="121" y="528" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ked-vz-Utv" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="121" y="649" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="AWj-Ar-1Xh" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="220" y="44" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="euH-j4-5DK" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="220" y="165" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="erO-Hl-rlv" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="220" y="286" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="pnv-Pz-SI4" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="220" y="407" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hLJ-hA-rSP" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="220" y="528" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="VEK-98-69n" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="220" y="649" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="AJd-23-vk7" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="319" y="44" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SJf-Rt-RIR" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="319" y="165" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mSf-er-3SE" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="319" y="286" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1Ai-ti-xpw" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="319" y="407" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SLy-BE-bJL" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="319" y="528" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2NX-Nc-fbE" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="319" y="649" width="75" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <string key="title">▲
+●
+■</string>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">▲
+●
+■</string>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="26"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EB8-3d-2Af" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="17" y="768" width="83" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Hint">
+                                    <color key="titleColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQg-gI-FZE" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="131" y="770" width="128" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nkG-Ut-RY4" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="267" y="770" width="128" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Deal 3 +">
+                                    <color key="titleColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.0" green="0.56631410120000003" blue="0.31671360139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outletCollection property="cardButton" destination="ISh-Yv-uxl" collectionClass="NSMutableArray" id="X0E-Kb-z3i"/>
+                        <outletCollection property="cardButton" destination="jgG-Fn-nm8" collectionClass="NSMutableArray" id="G5n-Ib-7pt"/>
+                        <outletCollection property="cardButton" destination="AWj-Ar-1Xh" collectionClass="NSMutableArray" id="KeG-Lh-0CC"/>
+                        <outletCollection property="cardButton" destination="AJd-23-vk7" collectionClass="NSMutableArray" id="NoN-l0-jta"/>
+                        <outletCollection property="cardButton" destination="h6J-05-H0p" collectionClass="NSMutableArray" id="3zV-uW-zdH"/>
+                        <outletCollection property="cardButton" destination="kpF-Fb-sYb" collectionClass="NSMutableArray" id="liY-51-UwY"/>
+                        <outletCollection property="cardButton" destination="euH-j4-5DK" collectionClass="NSMutableArray" id="TrZ-1J-Fex"/>
+                        <outletCollection property="cardButton" destination="SJf-Rt-RIR" collectionClass="NSMutableArray" id="6dW-fg-u4S"/>
+                        <outletCollection property="cardButton" destination="hle-Zc-spD" collectionClass="NSMutableArray" id="Yjn-v6-HIY"/>
+                        <outletCollection property="cardButton" destination="omO-rq-VmA" collectionClass="NSMutableArray" id="HAq-vq-t5y"/>
+                        <outletCollection property="cardButton" destination="erO-Hl-rlv" collectionClass="NSMutableArray" id="xeD-Ka-Q9s"/>
+                        <outletCollection property="cardButton" destination="mSf-er-3SE" collectionClass="NSMutableArray" id="BRc-7X-MEq"/>
+                        <outletCollection property="cardButton" destination="a2A-jY-Soj" collectionClass="NSMutableArray" id="dwK-vG-Afp"/>
+                        <outletCollection property="cardButton" destination="xFM-e0-jSu" collectionClass="NSMutableArray" id="ICy-pG-bpI"/>
+                        <outletCollection property="cardButton" destination="pnv-Pz-SI4" collectionClass="NSMutableArray" id="Mmv-NM-xqb"/>
+                        <outletCollection property="cardButton" destination="1Ai-ti-xpw" collectionClass="NSMutableArray" id="kA3-lO-mau"/>
+                        <outletCollection property="cardButton" destination="bx9-iT-ojT" collectionClass="NSMutableArray" id="v2h-Ho-IUW"/>
+                        <outletCollection property="cardButton" destination="DZj-eL-Vqx" collectionClass="NSMutableArray" id="hKN-sm-5nX"/>
+                        <outletCollection property="cardButton" destination="hLJ-hA-rSP" collectionClass="NSMutableArray" id="gCO-gc-n4P"/>
+                        <outletCollection property="cardButton" destination="SLy-BE-bJL" collectionClass="NSMutableArray" id="P1e-ix-Hub"/>
+                        <outletCollection property="cardButton" destination="bNd-3U-h38" collectionClass="NSMutableArray" id="lzr-5B-1oh"/>
+                        <outletCollection property="cardButton" destination="Ked-vz-Utv" collectionClass="NSMutableArray" id="PaY-qg-98p"/>
+                        <outletCollection property="cardButton" destination="VEK-98-69n" collectionClass="NSMutableArray" id="Fji-FY-i9K"/>
+                        <outletCollection property="cardButton" destination="2NX-Nc-fbE" collectionClass="NSMutableArray" id="y3Y-wh-uPT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="1Ai-ti-xpw">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="2NX-Nc-fbE">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="AJd-23-vk7">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="AWj-Ar-1Xh">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="DZj-eL-Vqx">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="ISh-Yv-uxl">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="Ked-vz-Utv">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="SJf-Rt-RIR">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="SLy-BE-bJL">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="VEK-98-69n">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="a2A-jY-Soj">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="bNd-3U-h38">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="bx9-iT-ojT">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="erO-Hl-rlv">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="euH-j4-5DK">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="h6J-05-H0p">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="hLJ-hA-rSP">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="hle-Zc-spD">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="jgG-Fn-nm8">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="kpF-Fb-sYb">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="mSf-er-3SE">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="omO-rq-VmA">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="pnv-Pz-SI4">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="xFM-e0-jSu">
+            <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+    </designables>
 </document>

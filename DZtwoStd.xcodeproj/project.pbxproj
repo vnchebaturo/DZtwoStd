@@ -13,6 +13,8 @@
 		8040767F2712CFB60069066F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8040767D2712CFB60069066F /* Main.storyboard */; };
 		804076812712CFB80069066F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804076802712CFB80069066F /* Assets.xcassets */; };
 		804076842712CFB80069066F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804076822712CFB80069066F /* LaunchScreen.storyboard */; };
+		8040768E2712E3320069066F /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8040768D2712E3320069066F /* BorderButton.swift */; };
+		804076902713743B0069066F /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8040768F2713743B0069066F /* SetCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		804076802712CFB80069066F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		804076832712CFB80069066F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		804076852712CFB80069066F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8040768D2712E3320069066F /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		8040768F2713743B0069066F /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		8040766B2712CFB60069066F = {
 			isa = PBXGroup;
 			children = (
+				8040768F2713743B0069066F /* SetCard.swift */,
 				804076762712CFB60069066F /* DZtwoStd */,
 				804076752712CFB60069066F /* Products */,
 			);
@@ -56,15 +61,24 @@
 		804076762712CFB60069066F /* DZtwoStd */ = {
 			isa = PBXGroup;
 			children = (
-				804076772712CFB60069066F /* AppDelegate.swift */,
-				804076792712CFB60069066F /* SceneDelegate.swift */,
 				8040767B2712CFB60069066F /* ViewController.swift */,
 				8040767D2712CFB60069066F /* Main.storyboard */,
+				8040768D2712E3320069066F /* BorderButton.swift */,
 				804076802712CFB80069066F /* Assets.xcassets */,
 				804076822712CFB80069066F /* LaunchScreen.storyboard */,
 				804076852712CFB80069066F /* Info.plist */,
+				8040768C2712D0850069066F /* Supporting Files */,
 			);
 			path = DZtwoStd;
+			sourceTree = "<group>";
+		};
+		8040768C2712D0850069066F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				804076772712CFB60069066F /* AppDelegate.swift */,
+				804076792712CFB60069066F /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804076902713743B0069066F /* SetCard.swift in Sources */,
 				8040767C2712CFB60069066F /* ViewController.swift in Sources */,
 				804076782712CFB60069066F /* AppDelegate.swift in Sources */,
 				8040767A2712CFB60069066F /* SceneDelegate.swift in Sources */,
+				8040768E2712E3320069066F /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
