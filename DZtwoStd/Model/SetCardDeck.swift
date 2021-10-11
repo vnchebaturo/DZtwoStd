@@ -11,11 +11,14 @@ struct SetCardDeck {
     private(set) var cards = [SetCard]()
     
     init() {
-        for number in SetCard.Variant.all {
-            for color in SetCard.Variant.all {
-                for shape in SetCard.Variant.all {
-                    for fill in SetCard.Variant.all {
-                        cards.append(SetCard(number: number, color: color, shape: shape, fill: fill))
+        for number in SetCard.Variant.allCases {
+            for color in SetCard.Variant.allCases {
+                for shape in SetCard.Variant.allCases {
+                    for fill in SetCard.Variant.allCases {
+                        cards.append(SetCard(number: number,
+                                             color: color,
+                                             shape: shape,
+                                             fill: fill))
                     }
                 }
             }

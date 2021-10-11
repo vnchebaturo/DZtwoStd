@@ -38,6 +38,9 @@
                                         <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ai5-me-3wV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="h6J-05-H0p" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
                                 <rect key="frame" x="20" y="165" width="75" height="113"/>
@@ -568,16 +571,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EB8-3d-2Af" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
-                                <rect key="frame" x="17" y="768" width="83" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="tintColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Hint">
-                                    <color key="titleColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQg-gI-FZE" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
                                 <rect key="frame" x="131" y="770" width="128" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -598,35 +591,75 @@
                                     <color key="titleColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Deck: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZp-o2-slC">
+                                <rect key="frame" x="20" y="829" width="80" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgp-Jr-Se1">
+                                <rect key="frame" x="169" y="829" width="68" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulq-lI-pVf">
+                                <rect key="frame" x="286" y="829" width="95" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EB8-3d-2Af" customClass="BorderButton" customModule="DZtwoStd" customModuleProvider="target">
+                                <rect key="frame" x="16" y="770" width="83" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Hint">
+                                    <color key="titleColor" red="0.1559907696" green="0.78039215689999997" blue="0.25420676129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="hint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDL-FJ-ocq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.3009830117225647" green="0.49063211679458618" blue="0.34287482500076294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outletCollection property="cardButton" destination="ISh-Yv-uxl" collectionClass="NSMutableArray" id="X0E-Kb-z3i"/>
-                        <outletCollection property="cardButton" destination="jgG-Fn-nm8" collectionClass="NSMutableArray" id="G5n-Ib-7pt"/>
-                        <outletCollection property="cardButton" destination="AWj-Ar-1Xh" collectionClass="NSMutableArray" id="KeG-Lh-0CC"/>
-                        <outletCollection property="cardButton" destination="AJd-23-vk7" collectionClass="NSMutableArray" id="NoN-l0-jta"/>
-                        <outletCollection property="cardButton" destination="h6J-05-H0p" collectionClass="NSMutableArray" id="3zV-uW-zdH"/>
-                        <outletCollection property="cardButton" destination="kpF-Fb-sYb" collectionClass="NSMutableArray" id="liY-51-UwY"/>
-                        <outletCollection property="cardButton" destination="euH-j4-5DK" collectionClass="NSMutableArray" id="TrZ-1J-Fex"/>
-                        <outletCollection property="cardButton" destination="SJf-Rt-RIR" collectionClass="NSMutableArray" id="6dW-fg-u4S"/>
-                        <outletCollection property="cardButton" destination="hle-Zc-spD" collectionClass="NSMutableArray" id="Yjn-v6-HIY"/>
-                        <outletCollection property="cardButton" destination="omO-rq-VmA" collectionClass="NSMutableArray" id="HAq-vq-t5y"/>
-                        <outletCollection property="cardButton" destination="erO-Hl-rlv" collectionClass="NSMutableArray" id="xeD-Ka-Q9s"/>
-                        <outletCollection property="cardButton" destination="mSf-er-3SE" collectionClass="NSMutableArray" id="BRc-7X-MEq"/>
-                        <outletCollection property="cardButton" destination="a2A-jY-Soj" collectionClass="NSMutableArray" id="dwK-vG-Afp"/>
-                        <outletCollection property="cardButton" destination="xFM-e0-jSu" collectionClass="NSMutableArray" id="ICy-pG-bpI"/>
-                        <outletCollection property="cardButton" destination="pnv-Pz-SI4" collectionClass="NSMutableArray" id="Mmv-NM-xqb"/>
-                        <outletCollection property="cardButton" destination="1Ai-ti-xpw" collectionClass="NSMutableArray" id="kA3-lO-mau"/>
-                        <outletCollection property="cardButton" destination="bx9-iT-ojT" collectionClass="NSMutableArray" id="v2h-Ho-IUW"/>
-                        <outletCollection property="cardButton" destination="DZj-eL-Vqx" collectionClass="NSMutableArray" id="hKN-sm-5nX"/>
-                        <outletCollection property="cardButton" destination="hLJ-hA-rSP" collectionClass="NSMutableArray" id="gCO-gc-n4P"/>
-                        <outletCollection property="cardButton" destination="SLy-BE-bJL" collectionClass="NSMutableArray" id="P1e-ix-Hub"/>
-                        <outletCollection property="cardButton" destination="bNd-3U-h38" collectionClass="NSMutableArray" id="lzr-5B-1oh"/>
-                        <outletCollection property="cardButton" destination="Ked-vz-Utv" collectionClass="NSMutableArray" id="PaY-qg-98p"/>
-                        <outletCollection property="cardButton" destination="VEK-98-69n" collectionClass="NSMutableArray" id="Fji-FY-i9K"/>
-                        <outletCollection property="cardButton" destination="2NX-Nc-fbE" collectionClass="NSMutableArray" id="y3Y-wh-uPT"/>
+                        <outlet property="dealButton" destination="nkG-Ut-RY4" id="gyN-bw-uqS"/>
+                        <outlet property="deckCountLabel" destination="yZp-o2-slC" id="WzB-XM-eNE"/>
+                        <outlet property="hintButton" destination="EB8-3d-2Af" id="gmM-qQ-lUX"/>
+                        <outlet property="messageLabel" destination="hgp-Jr-Se1" id="z1E-YI-mhR"/>
+                        <outlet property="newButton" destination="RQg-gI-FZE" id="Ksu-HR-K8C"/>
+                        <outlet property="scoreLabel" destination="ulq-lI-pVf" id="hwM-jB-2Pr"/>
+                        <outletCollection property="cardButtons" destination="ISh-Yv-uxl" collectionClass="NSMutableArray" id="MMu-If-hxz"/>
+                        <outletCollection property="cardButtons" destination="jgG-Fn-nm8" collectionClass="NSMutableArray" id="wpp-bh-bz9"/>
+                        <outletCollection property="cardButtons" destination="AWj-Ar-1Xh" collectionClass="NSMutableArray" id="i1s-DP-MQp"/>
+                        <outletCollection property="cardButtons" destination="AJd-23-vk7" collectionClass="NSMutableArray" id="sjp-dR-fFr"/>
+                        <outletCollection property="cardButtons" destination="h6J-05-H0p" collectionClass="NSMutableArray" id="PVJ-hS-0FO"/>
+                        <outletCollection property="cardButtons" destination="kpF-Fb-sYb" collectionClass="NSMutableArray" id="Ydp-Em-Wzf"/>
+                        <outletCollection property="cardButtons" destination="euH-j4-5DK" collectionClass="NSMutableArray" id="c9X-Hc-6Qh"/>
+                        <outletCollection property="cardButtons" destination="SJf-Rt-RIR" collectionClass="NSMutableArray" id="DCX-3Y-xLz"/>
+                        <outletCollection property="cardButtons" destination="hle-Zc-spD" collectionClass="NSMutableArray" id="KA0-YZ-ipN"/>
+                        <outletCollection property="cardButtons" destination="omO-rq-VmA" collectionClass="NSMutableArray" id="zp6-s9-cAu"/>
+                        <outletCollection property="cardButtons" destination="erO-Hl-rlv" collectionClass="NSMutableArray" id="JuL-Hi-1So"/>
+                        <outletCollection property="cardButtons" destination="mSf-er-3SE" collectionClass="NSMutableArray" id="aZ7-VC-KK4"/>
+                        <outletCollection property="cardButtons" destination="a2A-jY-Soj" collectionClass="NSMutableArray" id="0nM-XJ-vMJ"/>
+                        <outletCollection property="cardButtons" destination="bx9-iT-ojT" collectionClass="NSMutableArray" id="B13-Mo-4Qg"/>
+                        <outletCollection property="cardButtons" destination="bNd-3U-h38" collectionClass="NSMutableArray" id="8tD-fM-f5A"/>
+                        <outletCollection property="cardButtons" destination="DZj-eL-Vqx" collectionClass="NSMutableArray" id="QaA-TY-YjA"/>
+                        <outletCollection property="cardButtons" destination="xFM-e0-jSu" collectionClass="NSMutableArray" id="Q9n-sq-GJe"/>
+                        <outletCollection property="cardButtons" destination="Ked-vz-Utv" collectionClass="NSMutableArray" id="bJQ-OD-noq"/>
+                        <outletCollection property="cardButtons" destination="pnv-Pz-SI4" collectionClass="NSMutableArray" id="PDL-kK-qMP"/>
+                        <outletCollection property="cardButtons" destination="1Ai-ti-xpw" collectionClass="NSMutableArray" id="Udr-eP-tD1"/>
+                        <outletCollection property="cardButtons" destination="SLy-BE-bJL" collectionClass="NSMutableArray" id="hyk-kq-Rka"/>
+                        <outletCollection property="cardButtons" destination="2NX-Nc-fbE" collectionClass="NSMutableArray" id="cgr-9v-rrH"/>
+                        <outletCollection property="cardButtons" destination="hLJ-hA-rSP" collectionClass="NSMutableArray" id="3Jq-n6-eeS"/>
+                        <outletCollection property="cardButtons" destination="VEK-98-69n" collectionClass="NSMutableArray" id="6w2-Av-6YC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -650,11 +683,17 @@
         <designable name="DZj-eL-Vqx">
             <size key="intrinsicContentSize" width="48.5" height="107.5"/>
         </designable>
+        <designable name="EB8-3d-2Af">
+            <size key="intrinsicContentSize" width="36" height="36"/>
+        </designable>
         <designable name="ISh-Yv-uxl">
             <size key="intrinsicContentSize" width="48.5" height="107.5"/>
         </designable>
         <designable name="Ked-vz-Utv">
             <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="RQg-gI-FZE">
+            <size key="intrinsicContentSize" width="97" height="36"/>
         </designable>
         <designable name="SJf-Rt-RIR">
             <size key="intrinsicContentSize" width="48.5" height="107.5"/>
@@ -697,6 +736,9 @@
         </designable>
         <designable name="mSf-er-3SE">
             <size key="intrinsicContentSize" width="48.5" height="107.5"/>
+        </designable>
+        <designable name="nkG-Ut-RY4">
+            <size key="intrinsicContentSize" width="73" height="36"/>
         </designable>
         <designable name="omO-rq-VmA">
             <size key="intrinsicContentSize" width="48.5" height="107.5"/>
